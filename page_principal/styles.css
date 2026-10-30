@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #F6F1E6;
+    padding: 0 30px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 17px 0px  ;
+    border-bottom: solid 3px #C85A34;
+
+}
+header h1{
+    width: 300px;
+    height: 30px;
+    font-size: 36px;
+    padding-bottom: 3px;
+    font-weight: 500;
+
+}
+header span{
+    color: #C85A34;
+
+}
+.da-carol{
+    color: black;
+    font-weight:500 ;
+}
+nav{
+    display: flex;
+    gap: 70px;
+    padding-top: 13px;
+
+}
+a{
+    text-decoration: none;
+    color: #6B7A49;
+    font-size: 18px;
+    font-family: Montserrat;
+
+}
+button {
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+.introduction{
+    display: flex;
+    justify-content: space-between;
+}
+.introduction img{
+    width: 370px;
+}
+.img-logo{
+    width: 300px;
+    padding-top: 50px;
+    padding-right: 80px;
+    margin-right: 100px
+}
+.txt-introduction{
+    width: 600px;
+}
+.txt-introduction h2{
+    padding-top: 40px;
+    font-size: 72px;
+
+}
+.txt-introduction span{
+    color: #C85A34;
+}
+p{
+
+    font-family: Montserrat;
+}
+.txt-introduction p{
+    font-weight: 600;
+    padding: 15px 0 30px;
+    color: #6B7A49;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+    font-size: 19px;
+}
+.txt-introduction button{
+    padding: 14px;
+    width: 270px;
+    border-radius: 10px;
+    border: solid 2px gray;
+    background-color: inherit;
+    font-size: 20px;
+
+}
+
+article{
+    padding-top: 150px;
+}
+article h1{
+
+    font-weight: 500;
+
+}
+article h4{
+    font-weight: 400;
+}
+article h1, article h4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+article h4{
+    color: #C85A34;
+    font-size: 20px;
+}
+article h1{
+    font-size: 40px;
+}
+.tamanhos{
+    max-width: 440px;
+    margin: 28px auto 0;
+    padding: 20px;
+    border: 1px solid #C85A34;
+    border-radius: 12px;
+    background-color: #F0E5D4;
+    text-align: center;
+    font-family: Montserrat;
+}
+.tamanhos-titulo{
+    margin-bottom: 14px;
+    color: #4B2E20;
+    font-size: 16px;
+    font-weight: 600;
+}
+.tamanhos-opcoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0;
+    list-style: none;
+}
+.tamanhos-opcoes li{
+    display: flex;
+    flex: 1 1 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #F6F1E6;
+    color: #4B2E20;
+    font-size: 16px;
+}
+.tamanhos-opcoes strong{
+    color: #C85A34;
+    white-space: nowrap;
+}
+.cardapio{
+    max-width: 809px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 79px;
+    justify-content: center ;
+    font-family: Montserrat;
+}
+.cardapio span{
+    font-size: 35px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.cardapio div{
+    flex-shrink: 0;
+    width: 215px;
+    height: 220px;
+    border: solid 1px #C85A34;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+.cardapio div p{
+    font-weight: 400;
+    color: gray;
+    padding-left: 16px;
+}
+.cardapio div h4{
+    color: black;
+    padding-left: 14px;
+    padding-bottom: 7px;
+    font-weight: 600;
+    display: inline-block;
+    width: 150px;
+    font-size: 17px;
+
+}
+
+.first-column,
+.second-column,
+.third-column{
+    display: contents;
+}
+.first-column > div:first-child{
+    order: 1;
+}
+.second-column > div:first-child{
+    order: 2;
+}
+.third-column > div{
+    order: 3;
+}
+.first-column > div:last-child{
+    order: 4;
+}
+.second-column > div:last-child{
+    order: 5;
+}
+.verde-serra p{
+    padding-top: 5px;
+}
+.milho-dourado p{
+    padding-top: 6px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #4B2E20;
+    margin: 0 -30px 0 -30px;
+    color: #DFCB9A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    justify-content: space-between;
+
+}
+footer p{
+    padding-left: 60px;
+    font-weight: 500;
+}
+footer a{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.button-footer{
+    display: flex;
+    align-items:center;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.button-footer button,
+.button-footer .whatsapp-footer{
+    padding: 10px;
+    width: 100px;
+    background-color:#F6F1E6;
+    border-radius: 9px;
+    border: solid 2px black;
+}
+.button-footer .whatsapp-footer{
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+.whatsapp-footer:hover,
+.whatsapp-footer:focus-visible{
+    outline: 2px solid #DFCB9A;
+    outline-offset: 4px;
+}
+
+@media (max-width: 1024px) {
+    .txt-introduction h2 {
+        font-size: 52px;
+    }
+
+    .introduction img {
+        width: 240px;
+    }
+
+    .cardapio {
+        max-width: 731px;
+        gap: 50px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 0 16px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 16px 0;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        gap: 20px;
+        padding-top: 0;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .introduction {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .img-logo {
+        padding-top: 24px;
+        padding-left: 0;
+    }
+
+    .introduction img {
+        width: 200px;
+    }
+
+    .txt-introduction {
+        width: 100%;
+    }
+
+    .txt-introduction h2 {
+        font-size: 38px;
+        padding-top: 0;
+    }
+
+    .txt-introduction p {
+        font-size: 16px;
+    }
+
+    .txt-introduction button {
+        width: 100%;
+    }
+
+    .cardapio {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding-top: 24px;
+    }
+
+    .cardapio div {
+        width: 90%;
+        max-width: 340px;
+        height: auto;
+        padding-bottom: 16px;
+    }
+
+    article {
+        padding-top: 60px;
+    }
+
+    article h1 {
+        font-size: 28px;
+    }
+
+    article h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 24px 16px;
+        margin: 0 -16px;
+        gap: 16px;
+        text-align: center;
+    }
+
+    footer p {
+        padding-left: 0;
+    }
+
+    .button-footer {
+        padding-right: 0;
+        justify-content: center;
+    }
+}
